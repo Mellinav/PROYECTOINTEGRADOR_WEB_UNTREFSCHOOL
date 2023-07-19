@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color:   #1F8A70;
+    background-color:   #ffffff;
 }
 
 header{
@@ -19,6 +19,10 @@ header{
     align-items: center;
     height: 80px;
     padding: 5px 10%;
+}
+
+footer{
+    color:
 }
 
 .header .logo img{
@@ -40,11 +44,21 @@ header{
 }
 
 .header.nav-link li a:hover{
-    color:#FC7300; 
+    color:#FC7300;
 }
 
 .header .nav-link a{
     font-size: 700;
     color: #EFF5F5;
     text-decoration: none;
+}
+
+#pie{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #00425A;
+    color:#FC7300
+    
 }
