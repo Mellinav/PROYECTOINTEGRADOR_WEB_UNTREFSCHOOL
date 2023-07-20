@@ -7,11 +7,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-
 body{
     background-color:   #ffffff;
 }
-
 header{
     background-color: #00425A ;
     display: flex;
@@ -20,11 +18,6 @@ header{
     height: 80px;
     padding: 5px 10%;
 }
-
-footer{
-    color:
-}
-
 .header .logo img{
     height: 70px;
     width: auto;
@@ -53,12 +46,49 @@ footer{
     text-decoration: none;
 }
 
-#pie{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 0.5fr;
-    justify-items: center;
-    align-items: center;
-    background-color: #00425A;
-    color:#FC7300
-    
+.contenedor {
+    position: relative;
+    height: 400px;
+    background-image: url(/img/slogan2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+h6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #EFF5F5;
+    background-color: #008cbf;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+        
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }
